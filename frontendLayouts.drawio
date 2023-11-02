@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="PU5GwEoTJpwq2ANEjuB8" name="Page-1">
-        <mxGraphModel dx="3175" dy="797" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="3382" dy="938" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -118,7 +118,7 @@
                     <mxGeometry x="780" y="735" width="130" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="91" value="" style="group" vertex="1" connectable="0" parent="1">
-                    <mxGeometry x="-1621" y="291" width="1632" height="548" as="geometry"/>
+                    <mxGeometry x="-1621" y="291" width="1632" height="577" as="geometry"/>
                 </mxCell>
                 <mxCell id="55" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" vertex="1" parent="91">
                     <mxGeometry x="554.0744857982371" y="251.72906403940885" width="134.97551420176296" height="269.9507389162562" as="geometry"/>
@@ -200,22 +200,43 @@
                 <mxCell id="86" value="Com..." style="shape=rect;strokeColor=none;fillColor=#008cff;strokeWidth=1;dashed=0;rounded=1;arcSize=20;fontColor=#ffffff;fontSize=17;spacing=2;spacingTop=-2;align=left;autosize=1;spacingLeft=4;resizeWidth=0;resizeHeight=0;perimeter=none;" vertex="1" parent="85">
                     <mxGeometry x="3.3743878550440742" y="0.6748768472906405" width="70" height="28" as="geometry"/>
                 </mxCell>
+                <mxCell id="112" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.306;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontSize=16;fontColor=#FFFFFF;" edge="1" parent="91" source="104" target="111">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="104" value="Responsive webpage&lt;br style=&quot;font-size: 30px;&quot;&gt;layout" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=30;fontStyle=1;fontColor=#CCCCFF;horizontal=1;" vertex="1" parent="91">
                     <mxGeometry x="226.16000000000008" y="337" width="323" height="84" as="geometry"/>
                 </mxCell>
-                <mxCell id="97" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;" edge="1" parent="1" source="58">
+                <mxCell id="97" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;entryX=0.29;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="91" source="58" target="57">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="-1437.2941176470588" y="518.4705882352941" as="targetPoint"/>
+                        <mxPoint x="183.70588235294122" y="227.47058823529414" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="102" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;" edge="1" parent="1" source="100" target="25">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="108" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.callout;linkText=;textSize=17;textColor=#666666;callDir=NW;callStyle=line;fontSize=17;fontColor=#666666;align=left;verticalAlign=top;strokeColor=#666666;" vertex="1" parent="91">
+                    <mxGeometry x="809" y="-66" width="263" height="155" as="geometry"/>
                 </mxCell>
-                <mxCell id="100" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;verticalAlign=top;strokeColor=#c0c0c0;labelBackgroundColor=#ffffff;shadow=0;dashed=0;strokeWidth=1;" vertex="1" parent="1">
+                <mxCell id="111" value="The front-end should&lt;br&gt;displayed&amp;nbsp;correctly &lt;br&gt;on different&amp;nbsp;resolutions&lt;br&gt;screens." style="strokeWidth=1;shadow=0;dashed=1;align=right;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;strokeColor=default;mainText=;verticalAlign=top;horizontal=1;dashPattern=1 4;fillColor=default;gradientColor=none;fontStyle=1;html=1;" vertex="1" parent="91">
+                    <mxGeometry x="288.31" y="482" width="197.69" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;horizontal=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.002;exitY=0.582;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="25" target="100">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-633" y="830" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="-609" y="601"/>
+                            <mxPoint x="-609" y="679"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="100" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;verticalAlign=top;strokeColor=#c0c0c0;labelBackgroundColor=#ffffff;shadow=0;dashed=0;strokeWidth=1;horizontal=1;rotation=-180;" vertex="1" parent="1">
                     <mxGeometry x="-755.4622428991185" y="648.7044334975369" width="80" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="101" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;" edge="1" parent="1" source="55" target="100">
                     <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="&lt;font color=&quot;#ffffff&quot;&gt;The front-end layout&lt;br&gt;should be defined&lt;br&gt;by screen&lt;br&gt;proportion rather&lt;br&gt;than absolute&lt;br&gt;values&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.callout;linkText=;textSize=17;textColor=#666666;callDir=SW;callStyle=line;fontSize=17;fontColor=#666666;align=left;verticalAlign=bottom;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="-1788" y="882" width="282" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Front-end behaviour depends&lt;br&gt;only on the incoming control&lt;br&gt;data and not from the previous&lt;br&gt;information.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=30;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="-902" y="98" width="249" height="156" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
